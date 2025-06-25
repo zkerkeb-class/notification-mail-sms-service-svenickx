@@ -25,7 +25,6 @@ export default class MailService {
       subject,
       html,
     });
-    console.log("🚀 ~ MailService ~ send ~ mail:", mail);
     return mail;
   }
 }
